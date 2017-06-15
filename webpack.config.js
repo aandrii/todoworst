@@ -12,7 +12,10 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: "babel-loader",
-                exclude: [/node_modules/, /public/]
+                exclude: [/node_modules/, /public/],
+                 query: {
+                            presets: ['es2015','react']
+                        }
             },
             {
                 test: /\.css$/,
@@ -38,7 +41,10 @@ module.exports = {
             {
                 test: /\.jsx$/,
                 loader: "babel-loader",
-                exclude: [/node_modules/, /public/]
+                exclude: [/node_modules/, /public/],
+                query: {
+                            presets: ['es2015','react']
+                        }
             },
             {
                 test: /\.json$/,

@@ -1,0 +1,19 @@
+h1 {
+    color:goldenrod;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.notesApp{
+    max-width: 960px;
+    widows: 100%;
+    border:  1px dotted greenyellow;
+    background: rgba(0,0,0,0.13) 
+}
